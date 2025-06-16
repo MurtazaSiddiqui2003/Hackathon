@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #4D4D4D;
+}
+
+.navbar {
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.logo {
+    display: flex;
+}
+   
+.logo-heading {
+    font-family: serif;
+    font-weight: bold;
+}
+   
+li {
+    display: inline;
+    padding: 0px 10px;
+    color: #000;
+    
+}
+   
+li a {
+    text-decoration: none;
+    color: #B5B2B7;
+}
+   
+button {
+    background-color: #43A046;
+    border : none;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 50px;
+    padding: 2px 20px;
+}
+
+.hero {
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    margin-top: 100px;
+}
+   
+.hero-head {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+   
+.hero-para {
+    padding: 10px 0;
+}
+   
+.hero-button {
+    padding: 2px 20px;
+    color: #ffffff;
+}
+
+
+span {
+    color: #4CAF4F;
+}
+   
+.client {
+    text-align: center;
+}
+   
+.client-head  {
+    
+    padding: 30px 0px;
+}
+   
+.client-para {
+    color: #B5B2B7;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+
+.logo2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+   
+.membership {
+    padding: 30px;
+}
+   
+.manage {
+    padding: 20px;
+}
+      
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+ 
+.hero2 {
+    display: flex;
+    padding: 50px;
+}
+   
+.hero2left {
+    flex-grow: 1;
+}
+
+.hero2right {
+    flex-grow: 1;
+    text-align: left;
+} 
+   
+.hero2-head {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+   
+.hero2-para {
+    font-size: 14px;
+    padding: 10px 0;
+    margin: 50px 0;
+}
+
+.hero3 {
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.number {
+    display: flex;
+}
+
+.row-1 {
+    padding: 20px;
+}
+
+.row-2 {
+    padding: 20px;
+}
+
+.hero3-head {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+   
+.hero3-para {
+    font-size: 14px;
+    padding: 10px 0;
+}   
+
+.get-demo {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    padding: 20px 50px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+}
