@@ -55,7 +55,11 @@ button {
     background-color: #F5F7FA;
     display: flex;
     justify-content: space-between;
-    padding: 100px;
+    padding: 75px;
+}
+
+.hero div {
+    padding: 0 10px;
 }
    
 .hero-head {
@@ -105,12 +109,13 @@ span {
    
 .manage {
     padding: 20px;
+    font-size: 20px;
 }
       
 .icons {
     display: flex;
     justify-content: space-between;
-
+    font-size: 18px;
 }
 
 .icons div {
