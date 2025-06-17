@@ -110,8 +110,13 @@ span {
 .icons {
     display: flex;
     justify-content: space-between;
-    padding: 10px 50px;
+
 }
+
+.icons div {
+    padding: 10px 10px;
+}
+
  
 .hero2 {
     display: flex;
